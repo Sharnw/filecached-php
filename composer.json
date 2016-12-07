@@ -1,0 +1,10 @@
+{
+    "name": "sharnw/filecached-php",
+    "description": "A simple PHP key-value datastore using filesystem instead of memory",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {"Filecached\\Cache\\": "src/"}
+    }
+}
