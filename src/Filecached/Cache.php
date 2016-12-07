@@ -1,5 +1,7 @@
 <?php
 
+namespace Filecached;
+
 /**
 *  
 * A simple key-value datastore using files instead of memory.
@@ -11,7 +13,7 @@
 * @link https://github.com/Sharnw/php-file-cache
 * @license MIT
 */
-class Filecached {
+class Cache {
 
     public $cache_path = 'cache/'; // default cache folder
     public $cache_time = 86400; // cache file expires after 1 day
