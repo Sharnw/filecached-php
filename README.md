@@ -29,7 +29,7 @@ Similar interface to memcache
     
     require_once('src/cache.php');
 
-    $cache = new Filecached();
+    $cache = new Filecached\Cache();
 
     $example_data = [
         'time' => time(),
